@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>aff-app-6</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/calendar.css" media="all" type="text/css" />
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/calendar.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/tipso.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="wrap">
+        <!-- 遮罩层 -->
+        <div class="zzc hide"></div>
+        <!-- 头部 -->
+        <header class="header">
+            <!-- logo -->
+            <div class="logo fl"><a href="#" class="block"></a></div>
+            <!-- 快眼阅读 -->
+            <div class="read fl">
+                <p>快眼阅读</p>
+                <ul class="read_hide hide">
+                    <li>
+                        <a href="#" title=""><img src="img/read_read1.png" alt=""></a>
+                        <span>朵啦摄影</span>
+                    </li>
+                    <li>
+                        <a href="#" title=""><img src="img/read_read2.png" alt=""></a>
+                        <span>快眼阅读</span>
+                    </li>
+                    <li>
+                        <a href="#" title=""><img src="img/read_read3.png" alt=""></a>
+                        <span>蕲春招聘</span>
+                    </li>
+                    <li>
+                        <a href="#" title=""><img src="img/read_read1.png" alt=""></a>
+                        <span>朵啦摄影</span>
+                    </li>
+                    <li>
+                        <a href="#" title=""><img src="img/read_read2.png" alt=""></a>
+                        <span>快眼阅读</span>
+                    </li>
+                    <li>
+                        <a href="#" title=""><img src="img/read_read3.png" alt=""></a>
+                        <span>蕲春招聘</span>
+                    </li>
+                </ul>
+            </div>
+            <!-- 个人信息 -->
+            <div class="login fr">
+                <span class="user block fl single">Hi, Yechao</span>
+                <b class="icon block fl"></b>
+                <span class="img block fr"><img src="img/login.png" alt=""></span>
+                <!-- 个人信息隐藏部分 -->
+                <ul class="login_hide hide">
+                    <li class="one">
+                        <span class="login_hide_img"><img src="img/login.png" alt=""></span>
+                        <span class="login_hide_txt single">qq434l54</span>
+                    </li>
+                    <li class="two"><a href="#" title="">我的资料</a></li>
+                    <li class="three"><a href="#" title="">修改密码</a></li>
+                    <li class="four"><a href="#" title="">退出</a></li>
+                </ul>
+            </div>
+            <!-- 电话 -->
+            <div class="tel fr">
+                <!-- 电话隐藏部分 -->
+                <ul class="tel_hide hide">
+                    <li class="one">
+                        <a class="logo block fl" href="#"><img src="img/tel_1_logo.png" alt=""></a>
+                        <b class="title block fl">桃子</b>
+                        <span class="tag block fl">贴心管家</span>
+                    </li>
+                    <li class="pub two"><a class="single" href="#" title="">18672516685</a></li>
+                    <li class="pub three"><a class="single fl" href="#" title="">yckays</a><span class="fl sao">扫码</span></li>
+                    <li class="pub four"><a class="single" href="#" title="">497146</a></li>
+                    <li class="pub five"><a class="single" href="#" title="">497146@qq.com</a></li>
+                    <li class="erweima hide"><img src="img/erweima.png" alt=""></li>
+                </ul>
+            </div>
+            <!-- 消息通知 -->
+            <div class="msg fr">
+                <b class="b">5</b>
+                <ul class="msg_hide hide">
+                    <li><b class="hide">0</b><a class="block single" href="#" title="">关于结算变更的通知 </a></li>
+                    <li><b class="hide">1</b><a class="block single" href="#" title="">关于新版SDK升级公告，结算变更的通知</a></li>
+                    <li><b class="hide">1</b><a class="block single" href="#" title="">iOS一键打包图片上传出错</a></li>
+                    <li><b class="hide">0</b><a class="block single" href="#" title="">iOS网站原有的站原有的广告不展示了</a></li>
+                    <li><b class="hide">0</b><a class="block single" href="#" title="">关于结算变更的通知 </a></li>
+                    <li><b class="hide">0</b><a class="block single" href="#" title="">关于新版SDK升级公告，结算变更的通知</a></li>
+                </ul>
+            </div>
+            <!-- 头部导航 -->
+            <ul class="fr nav">
+                <li class="fl"><a href="#" title="">我的账号</a></li>
+                <li class="fl"><a href="#" title="">文档</a></li>
+                <li class="fl"><a href="#" title="">社区</a></li>
+            </ul>
+        </header>
+        <!-- 内容 -->
+        <div class="container1 g-bd1">
+            <!-- 左侧 -->
+            <section id="sidebar" class="g-sd1">
+                <h2>浏览</h2>
+                <ul>
+                    <li class="h3">
+                        <h3>应用设置</h3>
+                    </li>
+                    <li class="jbsz"><a href="#">基本设置</a></li>
+                    <li class="zs"><a href="#">证书</a></li>
+                    <li class="jr"><a href="#">接入</a></li>
+                    <li class="mk"><a href="#">模块</a></li>
+                    <li class="by"><a href="#">编译</a></li>
+                </ul>
+                <ul>
+                    <li class="h3">
+                        <h3>流量变现</h3>
+                    </li>
+                    <li class="gg"><a href="#">广告</a></li>
+                    <li class="xs"><a href="#">小说</a></li>
+                    <li class="tm"><a href="#">特卖</a></li>
+                    <li class="games"><a href="#">游戏</a></li>
+                    <li class="zb"><a href="#">直播</a></li>
+                </ul>
+                <ul>
+                    <li class="h3">
+                        <h3>应用管理</h3>
+                    </li>
+                    <li class="ysz"><a href="#">云设置</a></li>
+                    <li class="ts"><a href="#">推送</a></li>
+                    <li class="yx"><a href="#">运营</a></li>
+                </ul>
+            </section>
+            <!-- 右侧 -->
+            <div class="g-mn1">
+                <div class="g-mn1c">
+                    <div class="new_main">
+                        <div class="tmxs">
+                            <span>广告</span> -
+                            <small>广告活动</small>
+                        </div>
+                        <div class="main_inner1">
+                            <div class="main_left fl g-sd2">
+                                <ul>
+                                    <li class="yysj ">
+                                        <img src="img/yysj.png" alt="">
+                                        <a href="#">运营数据</a>
+                                    </li>
+                                    <li class='jsmx liIndex'>
+                                        <img src="img/jsmx1.png" alt="">
+                                        <a class="aIndex" href="#">结算明细</a>
+                                    </li>
+                                    <li class="txhd">
+                                        <img src="img/txhd.png" alt="">
+                                        <a href="#">挑选活动</a>
+                                    </li>
+                                    <li class='fbfh'>
+                                        <img src="img/fbfh.png" alt="">
+                                        <a href="#">发布发活</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="g-mn2">
+                                <div class="g-mn2c g-mn2c_left">
+                                    <div class="main_right fl">
+                                        <div class="sjcj">
+                                            <span class="fl">类型</span>
+                                            <select class="fl sele-guang1" name="" id="">
+                                                <option value="">广告类型1</option>
+                                                <option value="">广告类型11</option>
+                                                <option value="">广告类型111</option>
+                                            </select>
+                                            <span class="fl">时间</span>
+                                            <!-- <input type="text" class="sele-guang" /> -->
+                                            <div class="xgbg sele-guang">
+                                                <div class="xgbg_b fl" style="position:relative;">
+                                                    <dd class="fl"><span class="sj_ca"><em>2017-10-11 至 2017-10-11</em></span></dd>
+                                                    <div class="report_menu_html" style="display: none;">
+                                                        <div class="up">
+                                                            <div class="up_left">
+                                                                <div class="sousuo_r"> <strong>日期范围</strong> </div>
+                                                                <div class="sousuo_rq">
+                                                                    <input type="text" name="sta" id="sta" class="text_in" onclick="__C('sta','1')" style="padding-left:10px;font-size:12px;">
+                                                                    <span> – </span>
+                                                                    <input type="text" name="end" id="end" class="text_in" onclick="__C('end','1')" style="padding-left:10px;font-size:12px;">
+                                                                </div>
+                                                            </div>
+                                                            <div class="up_right">
+                                                                <div class="sousuo_fw">
+                                                                    <table>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td><a class="menubutton" href="javascript:void(0)" data_href="2017-10-11_2017-10-11">今天：10月11日</a></td>
+                                                                                <td><a class="menubutton" href="javascript:void(0)" data_href="2017-10-1_2017-10-11">本月：10月</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td><a class="menubutton" href="javascript:void(0)" data_href="2017-10-10_2017-10-10">昨天：10月10日</a></td>
+                                                                                <td><a class="menubutton" href="javascript:void(0)" data_href="2017-09-1_2017-09-30">上月：9月</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td><a class="menubutton" href="javascript:void(0)" data_href="2017-10-05_2017-10-11">过去 7 天</a></td>
+                                                                                <td><a class="menubutton" href="javascript:void(0)" data_href="">所有时间</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td><a class="menubutton" href="javascript:void(0)" data_href="2017-09-12_2017-10-11">最近 30 天</a></td>
+                                                                                <td>&nbsp;</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                            <div class="clear"></div>
+                                                        </div>
+                                                        <div class="down">
+                                                            <button class="btn btn-primary staendbutton" style="margin-right: 10px;line-height:inherit">应用 </button>
+                                                            <a href="#" class="quxiao">取消 </a> </div>
+                                                    </div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+                                        <div class="riqi">
+                                            <table>
+                                                <tr>
+                                                    <td><b>日期</b></td>
+                                                    <td><b>预估收益</b></td>
+                                                    <td><b>补扣金额</b></td>
+                                                    <td><b>最终收益</b></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2019-09-09</td>
+                                                    <td class="price">98.00</td>
+                                                    <td>0.00</td>
+                                                    <td class="price">98.00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2019-09-09</td>
+                                                    <td class="price">98.00</td>
+                                                    <td>0.00</td>
+                                                    <td class="price">98.00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2019-09-09</td>
+                                                    <td class="price">98.00</td>
+                                                    <td>0.00</td>
+                                                    <td class="price">98.00</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<!-- 时间控件 -->
+<script type="text/javascript">
+$(function() {
+    $(".sj_ca").on('click', function(option) {
+        $(".report_menu_html").show();
+        var offset = $(this).offset();
+    });
+    $(".menubutton").on('click', function(option) {
+        var d = $(this).attr("data_href");
+        location.href = '/index.php?e=aff/report.get_list&tid=6&uid=&appid=&type=&timerange=' + d;
+    });
+    $(".staendbutton").on('click', function(option) {
+        var sta = $("#sta").val();
+        var end = $("#end").val();
+        if ((sta && !end) || (!sta && end)) {
+            alert("开始时间和结束时间不能为空");
+        } else {
+            var d = sta + '_' + end;
+            location.href = '/index.php?e=aff/report.get_list&tid=6&uid=&appid=&type=&timerange=' + d;
+        }
+    });
+    $(".down > a").on('click', function(option) {
+        $(".report_menu_html").hide();
+    });
+});
+</script>

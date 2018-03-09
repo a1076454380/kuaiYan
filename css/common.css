@@ -1,0 +1,36 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,
+dl,dt,dd,ul,ol,li,pre,form,fieldset,
+legend,button,input,textarea,th,td {margin: 0;padding: 0;}
+address,cite,dfn,em,var,i {font-style: normal}
+ul,ol,li{list-style: none;}
+a{text-decoration: none;}
+a:hover,a:focus{text-decoration: none;}
+table { border-collapse: collapse; border-spacing: 0; }
+.clearfix:after{ content:""; height:0; visibility:hidden; display:block; clear:both;}
+.clearfix{ zoom:1;}
+.clear {clear:both}
+.fl{float: left;}
+.fr{float: right;}
+.hide{display: none;}
+.block{display: block;}
+textarea{resize: none;}
+input,textarea,button,select{border:none;outline:none;font-family:'Microsoft Yahei';}
+img{border:none;width: auto;max-width:100%;max-height: 100%;vertical-align:middle;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+.single{white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.double{-webkit-line-clamp:2;display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden;}
+.minH{min-height: .01rem;overflow: hidden;width: 100%;background: #fff;}
+body{-webkit-text-size-adjust: none;width: 100%;height: 100%;background: #f2f2f4;}
+.wrap {width: 100%;height: 100%;background: #f2f2f4;
+    font-family: "Microsoft YaHei";
+    margin: 0px auto;font-size: 16px;
+    min-width: 1280px;}
+/*tooplit插件*/
+.tipso_bubble,.tipso_bubble>.tipso_arrow{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.tipso_bubble{position:absolute;text-align:center;border-radius:6px;z-index:9999;padding:10px}
+.tipso_style{cursor:help;}
+.tipso_bubble>.tipso_arrow{position:absolute;width:0;height:0;border:8px solid;pointer-events:none}
+.tipso_bubble.top>.tipso_arrow{border-color:#000 transparent transparent;top:100%;left:50%;margin-left:-8px}
+.tipso_bubble.bottom>.tipso_arrow{border-color:transparent transparent #000;bottom:100%;left:50%;margin-left:-8px}
+.tipso_bubble.left>.tipso_arrow{border-color:transparent transparent transparent #000;top:50%;left:100%;margin-top:-8px}
+.tipso_bubble.right>.tipso_arrow{border-color:transparent #000 transparent transparent;top:50%;right:100%;margin-top:-8px}
